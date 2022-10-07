@@ -194,7 +194,9 @@ outline:none;
 
 
 .nav-open .nav{
+    transition: 450ms ease-in-out;
     transform: translateX(0);
+    
 }
 .nav-open .nav-toggle{
     position: fixed;
@@ -253,9 +255,14 @@ right:0;
 
 .intro{
     position: relative;
+    height: 550px;
 }
 .intro__img{
     box-shadow: var(--bs);
+}
+.intro__img:hover{
+    transform: translateX(5px) rotate(-20deg) scale(1.2);
+    transition: transform ease-in-out 200ms;
 }
 .section__subtitle--intro{
     display:inline-block;
@@ -276,6 +283,7 @@ right:0;
         min-width:250px ;
         position: relative;
         z-index: 2;
+        transform: none;
     }
     .section__subtitle--intro{
         align-self: start;
@@ -314,7 +322,10 @@ height: auto;
 margin-left: auto;
 margin-right: auto;
 }
-
+.my-services-img:hover{
+    transform: scale(1.2) rotate(360deg);
+    transition: transform ease-in-out 700ms;
+}
 .section__title--services{
     color: var(--clr-blue);
     position: relative;
