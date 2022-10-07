@@ -13,6 +13,9 @@
   --clr-light:#fff;
   --clr-dark:#303030;
   --clr-accent:#d82d9f;
+  --clr-blue:#08D9D6;
+
+  
 
   --fs-h1:3rem;
   --fs-h2:2.25rem;
@@ -123,6 +126,8 @@ display: block;}
     padding: .25em;
     font-family: var(--ff_secondary);
     margin-bottom: 1em;
+    color: #fff;
+
 }
 .section__subtitle--work{
     color: var(--clr-accent);
@@ -280,6 +285,7 @@ right:0;
         position: relative;
         left: -1.5em;
         width: calc(100%  + 1.5em);
+        color: #fff;
 
     }
 
@@ -295,9 +301,14 @@ right:0;
     color: var(--clr-light);
     text-align: center;
 }
+.my-services h3{
+  color: var(--clr-blue);
+  font-family: var(--ff_secondary);
+}
+
 
 .section__title--services{
-    color: var(--clr-accent);
+    color: var(--clr-blue);
     position: relative;
 }
 .section__title--services:after{
@@ -360,6 +371,8 @@ right:0;
     width: calc(100%+2em);
     padding-left: 2em;
     padding-right:calc(200px+4em) ;
+    color: #fff;
+
 }
     .about-me__img{
       grid-area: img;
@@ -407,10 +420,20 @@ right:0;
 
 .footer{
     background:#111;
-    color: var(--clr-accent);
+    color: var(--clr-blue);
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
+
+}
+
+
+.footer p{
+    color: var(--clr-accent);
+    font-weight: var(--fw-bold);
+    font-size: var(--ff-secondary);
+
+  
 
 }
 .footer a{
@@ -419,6 +442,8 @@ right:0;
 }
 .footer__link{
     font-weight: var(--fw-bold);
+    color: var(--clr-blue);
+
 }
 
 .footer__link:hover,
