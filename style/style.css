@@ -304,8 +304,16 @@ right:0;
 .my-services h3{
   color: var(--clr-blue);
   font-family: var(--ff_secondary);
+  margin-top: 20px;
 }
-
+.my-services-img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+width: 100px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
 
 .section__title--services{
     color: var(--clr-blue);
