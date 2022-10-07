@@ -49,6 +49,8 @@ body{
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+    background-image: url("/img/1x/giphy.gif");
+
 }
 section{
     padding: 5em 2em ;
@@ -370,6 +372,9 @@ transition: transform ease-in-out 700ms;
     margin-top: 20px;
 color: var(--clr-darks);
    background-color: var(--clr-blue);
+}
+.about-me p{
+    background-color:var(--clr-light);
 }
 @media(min-width:600px){
     .about-me{
