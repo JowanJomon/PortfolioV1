@@ -346,7 +346,10 @@ right:0;
 .about-me__img{
     box-shadow: var(--bs);
 }
-
+.about-me .btn{
+   color: var(--clr-dark);
+   background-color: var(--clr-blue);
+}
 @media(min-width:600px){
     .about-me{
         display: grid;
@@ -392,6 +395,8 @@ right:0;
 .portfolio{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+
+    
 }
 
 .portfolio__item{
