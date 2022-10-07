@@ -347,7 +347,8 @@ right:0;
     box-shadow: var(--bs);
 }
 .about-me .btn{
-   color: var(--clr-darks);
+    margin-top: 20px;
+color: var(--clr-darks);
    background-color: var(--clr-blue);
 }
 @media(min-width:600px){
