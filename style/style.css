@@ -261,11 +261,7 @@ right:0;
     box-shadow: var(--bs);
     transition: transform ease-in-out 200ms;
 }
-.intro__img:hover{
-    transform: translateX(5px) rotate(-20deg) scale(1.2);
-    transition: transform ease-in-out 200ms;
-    
-}
+
 .section__subtitle--intro{
     display:inline-block;
 }
@@ -286,6 +282,7 @@ right:0;
         position: relative;
         z-index: 2;
         transform: none;
+        transition: none;
     }
     .section__subtitle--intro{
         align-self: start;
