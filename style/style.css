@@ -257,7 +257,7 @@ right:0;
 
 .intro{
     position: relative;
-    height: 550px;
+    height: 80vh;
 }
 .intro__img{
     box-shadow: var(--bs);
