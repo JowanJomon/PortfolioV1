@@ -420,14 +420,16 @@ color: var(--clr-darks);
 
 .portfolio{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 1rem;
 
     
 }
 
 .portfolio__item{
-    background-color: var(--clr-accent);
+    background-color: var(--clr-blue);
     overflow: hidden;
+    border-radius: 2rem;
 
 
 }
@@ -445,7 +447,9 @@ color: var(--clr-darks);
 .portfolio__item:focus .portfolio__img{
     transform: scale(1.2);
     opacity: .55;
+
 }
+
 
 /* footer */
 
@@ -500,3 +504,4 @@ opacity: .6;
     padding:  0.5em;
    
 }
+
