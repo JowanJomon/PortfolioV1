@@ -300,6 +300,15 @@ right:0;
 
     }
 
+    .hamburger{
+    
+        display: block;
+        position: fixed;
+        margin-left: -2%;
+    
+    }
+    
+
 }
 
 /* my services */
