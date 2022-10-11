@@ -222,7 +222,7 @@ transform: rotate(90deg) translate(-6px);
     
     display: block;
     position: fixed;
-    margin-left: -2%;
+    margin-left: -2rem;
 
 }
 
@@ -300,13 +300,7 @@ right:0;
 
     }
 
-    .hamburger{
-    
-        display: block;
-        position: fixed;
-        margin-left: -5%;
-    
-    }
+ 
     
 
 }
