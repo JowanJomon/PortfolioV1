@@ -221,7 +221,8 @@ transform: rotate(90deg) translate(-6px);
 .hamburger{
     
     display: block;
-    position: relative;
+    position: fixed;
+    margin-left: -2%;
 
 }
 
